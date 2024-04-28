@@ -1,4 +1,4 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const randomBoolean = () => Math.random() >= 0.5;
-const stringReverse = str => str.split("").reverse().join("");
-const repositoryRootPath = path.resolve(__dirname, '..');
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const flattenedArray = arr => [].concat(...arr);
+const reversedString = str => str.split('').reverse().join('');
