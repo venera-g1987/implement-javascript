@@ -1,4 +1,3 @@
-const flattenedArray = arr => [].concat(...arr);
-const isArray = (arr) => Array.isArray(arr);
-console.log(false === '0');
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const stringReverse = str => str.split("").reverse().join("");
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
