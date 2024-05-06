@@ -1,1 +1,2 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log( "A" - "B" + 2);
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
