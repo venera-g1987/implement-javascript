@@ -1,3 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-var pattern = {};
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const allResults = await Promise.all(items.map(async (item) => {}));
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
