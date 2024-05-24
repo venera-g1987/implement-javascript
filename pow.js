@@ -1,3 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-var arr3 = "jones".split('');
-console.log(1 +  -"1" + "2");
+const updated = numbers.filter(element => element > 6);
+const getRandomBoolean = () => Math.random() >= 0.5;
