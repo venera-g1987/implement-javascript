@@ -1,3 +1,3 @@
-const appName = getAppName(channel);
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-var arr1 = "john".split('');
+console.log(false == '0');
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
