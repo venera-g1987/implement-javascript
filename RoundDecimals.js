@@ -1,2 +1,1 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+console.log("1 || 2 = "+(1 || 2));
