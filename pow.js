@@ -1,3 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-console.log( "A" - "B" + 2);
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const isEmptyObject = obj => Object.keys(obj).length === 0;
