@@ -1,3 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const isEven = (num) => num % 2 === 0;
-var DELIM_SIZE = 4;
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const arrayContains = (arr, element) => arr.includes(element);
+const merge = Object.assign({}, obj1, obj2);
