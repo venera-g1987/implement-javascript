@@ -1,3 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const arrayContains = (arr, element) => arr.includes(element);
-console.log(1 +  -"1" + "2");
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const merge = Object.assign({}, obj1, obj2);
