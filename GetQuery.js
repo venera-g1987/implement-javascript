@@ -1,1 +1,2 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const uniqueArr = (arr) => [...new Set(arr)];
