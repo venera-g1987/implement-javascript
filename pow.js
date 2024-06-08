@@ -1,3 +1,3 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
