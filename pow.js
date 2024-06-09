@@ -1,3 +1,2 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const arrayContains = (arr, element) => arr.includes(element);
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
