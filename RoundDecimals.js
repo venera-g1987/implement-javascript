@@ -1,2 +1,3 @@
-const uniqueArray = arr => [...new Set(arr)];
-const merge = (a, b) => [...a, ...b];
+const isEmptyArray = arr => !arr.length;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const goToTop = () => window.scrollTo(0, 0);
