@@ -1,2 +1,2 @@
-const results = await Promise.all(resultingPromises);
-const merge = (a, b) => [...a, ...b];
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+console.log( "A" - "B" + 2);
