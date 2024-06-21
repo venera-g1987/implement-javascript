@@ -1,3 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-var arr2 = arr1.reverse();
-const isArray = (arr) => Array.isArray(arr);
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const appName = getAppName(channel);
