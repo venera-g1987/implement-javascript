@@ -1,2 +1,3 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-console.log( "A" - "B" + 2);
+const uniqueArray = arr => [...new Set(arr)];
+const executableName = getExecutableName(channel, appName);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
