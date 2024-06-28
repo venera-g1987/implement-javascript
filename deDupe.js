@@ -1,3 +1,3 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const arrayContains = (arr, element) => arr.includes(element);
-const merge = Object.assign({}, obj1, obj2);
+const updated = numbers.filter(element => element > 6);
+var arr3 = "jones".split('');
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
