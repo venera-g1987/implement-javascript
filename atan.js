@@ -1,3 +1,3 @@
-const uniqueArray = arr => [...new Set(arr)];
-const executableName = getExecutableName(channel, appName);
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const allResults = await Promise.all(items.map(async (item) => {}));
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
