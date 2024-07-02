@@ -1,2 +1,2 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+var DELIM_SIZE = 4;
