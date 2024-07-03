@@ -1,3 +1,3 @@
-console.log( "A" - "B" + "2");
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const merge = (a, b) => a.concat(b);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
