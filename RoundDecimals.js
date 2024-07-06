@@ -1,3 +1,2 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const isArray = (arr) => Array.isArray(arr);
-console.log(1 +  -"1" + "2");
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
