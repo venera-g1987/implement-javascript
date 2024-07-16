@@ -1,2 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-[foo, bar] = [bar, foo];
+const reversedString = str => str.split('').reverse().join('');
+console.log(false === '0');
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
