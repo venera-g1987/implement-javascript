@@ -1,3 +1,2 @@
-const fullName = name || 'buddy';
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const merge = Object.assign({}, obj1, obj2);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const randomBoolean = () => Math.random() >= 0.5;
