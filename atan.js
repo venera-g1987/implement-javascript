@@ -1,3 +1,2 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const maxNumber = arr => Math.max(...arr);
+const flattenedArray = arr => [].concat(...arr);
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
