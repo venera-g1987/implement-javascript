@@ -1,2 +1,1 @@
-const flattenedArray = arr => [].concat(...arr);
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
