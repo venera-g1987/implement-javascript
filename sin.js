@@ -1,1 +1,1 @@
-var DELIM_SIZE = 4;
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
