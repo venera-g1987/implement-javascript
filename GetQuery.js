@@ -1,1 +1,1 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const timeFromDate = date => date.toTimeString().slice(0, 8);
