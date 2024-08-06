@@ -1,2 +1,3 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const merge = [...new Set([...a, ...b])];
+const merge = [...new Set(a.concat(b))];
+const channel = getChannel(computedAppVersion);
+const value = ( 5 < 7 ) ? "True" : "False" ;
